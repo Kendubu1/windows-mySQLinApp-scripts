@@ -7,7 +7,7 @@ Please visit the following for more details on the feature.
 - [Troubleshooting FAQ for MySQL in-app - Azure App Service](https://azure.github.io/AppService/2016/09/08/Troubleshooting-FAQ-for-MySQL-in-app.html)
 
 
-#Repository Contents
+##  Repository Contents
 All files included are for testing purposes with MySQL-in-App on Azure App Service Windows.
 
 | Files             |  Content                                   |
@@ -16,7 +16,8 @@ All files included are for testing purposes with MySQL-in-App on Azure App Servi
 | `querytimer.php`       | Allows user to run mysql queries from browser & track execution time. Requires updating the connection string on line 4. Intended for testing purposes.                |
 | `potatowind.sql`               | Dummy data for purchase order database to be used for testing imports from cli,kudu or phpmyadmin. |
 
-1. Deploy PHP Windows Application
+## General Walkthough 
+1. Deploy PHP Windows Application.
 2. Enabled My-SQL-in-App
 3. Copy files to wwwroot.
 4. Open phpMyAdmin & Import the database file. "potatowind.sql"
