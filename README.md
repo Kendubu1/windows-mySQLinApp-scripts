@@ -20,8 +20,8 @@ All files included are for testing purposes with MySQL-in-App on Azure App Servi
 2. Enabled My-SQL-in-App
 3. Copy files to wwwroot.
 4. Open phpMyAdmin & Import the database file. "potatowind.sql"
-5. Visit the localdb_connstr from the browser to confirm the connection string is returned. <sitename>.azurewebsites.net/localdb_connstr.php
+5. Visit the localdb_connstr from the browser to confirm the connection string is returned. Sitename.azurewebsites.net/localdb_connstr.php
     - The default connection string is stored in D:\home\data\mysql\MYSQLCONNSTR_localdb.txt 
     - If you want to customize the database, username and password, after you have created a new database, add new username or update password, simply modify D:\home\data\mysql\MYSQLCONNSTR_localdb.ini , remove D:\home\data\mysql\MYSQLCONNSTR_localdb.txt and restart the WebApps.
     - Azure will only backup the database from the connection string. 
-6. Updated querytimer.php with the correct user,server,pass, & database & test from browser. <sitename>.azurewebsites.net/querytimer.php
+6. Updated querytimer.php with the correct user,server,pass, & database & test from browser. Sitename.azurewebsites.net/querytimer.php
